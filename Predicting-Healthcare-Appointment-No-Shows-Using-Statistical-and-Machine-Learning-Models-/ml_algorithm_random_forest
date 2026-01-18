@@ -1,0 +1,36 @@
+MACHINE LEARNING ALGORITHM: RANDOM FOREST (FOR YOUR METHODOLOGY)
+
+Input: Dataset D = {X, Y}
+X = features (Age, Scholarship, SMS_received)
+Y = target (No_show)
+
+Step 1 — Data Preparation
+- Load dataset
+- Handle missing values
+- Split into features (X) and target (Y)
+
+Step 2 — Train-Test Split
+- Divide data into 80% training and 20% testing
+
+Step 3 — Bootstrap Sampling
+- Randomly sample training data with replacement to create multiple subsets
+
+Step 4 — Tree Construction
+For each tree:
+- Randomly select a subset of features
+- Grow decision tree using Gini impurity or entropy
+- Stop when max depth or minimum samples reached
+
+Step 5 — Ensemble Prediction
+- Each tree makes a prediction
+- Final prediction = majority vote (classification)
+
+Step 6 — Model Evaluation
+Compute:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+Step 7 — Feature Importance
+Rank variables based on their contribution to prediction.

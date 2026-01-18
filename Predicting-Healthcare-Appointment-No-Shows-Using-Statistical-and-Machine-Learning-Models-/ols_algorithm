@@ -1,0 +1,28 @@
+ALGORITHM: ORDINARY LEAST SQUARES (OLS)
+
+Step 1 — Load Data
+Read the healthcare appointments dataset from CSV.
+
+Step 2 — Data Preprocessing
+- Handle missing values
+- Select relevant features
+- Standardize numerical variables if required
+
+Step 3 — Add Intercept
+Add constant term β0 to matrix X.
+
+Step 4 — Estimate Coefficients
+Compute: β̂ = (XᵀX)⁻¹ XᵀY
+
+Step 5 — Make Predictions
+Ŷ = X β̂
+
+Step 6 — Evaluate Model
+Check:
+- R²
+- Adjusted R²
+- p-values
+- Residual plots
+
+Step 7 — Decision Rule
+If p-value < 0.05, the variable is statistically significant.
